@@ -74,5 +74,5 @@ npm run dev -- src/getSignedUrl.ts <path-to-file-in-bucket>
 # Sources
 
 - [S3Client API](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/s3/)
-- [Presigned URL](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-s3-presigned-post/)
+- [Presigned URL](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-s3-request-presigner/)
 - [PutObjectCommand](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/s3/command/PutObjectCommand/)
