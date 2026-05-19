@@ -1,0 +1,38 @@
+{
+  "name": "digital-ocean-s3-playground",
+  "version": "1.0.0",
+  "description": "Playground for DigitalOcean S3 bucket access",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "upload": "node scripts/upload.js",
+    "permissions": "node scripts/change-permissions.js",
+    "upload:ts": "ts-node src/upload.ts",
+    "permissions:ts": "ts-node src/change-permissions.ts",
+    "dev": "ts-node",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AClain/digital-ocean-s3-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AClain/digital-ocean-s3-playground/issues"
+  },
+  "homepage": "https://github.com/AClain/digital-ocean-s3-playground#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1049.0",
+    "@aws-sdk/s3-request-presigner": "^3.1050.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
